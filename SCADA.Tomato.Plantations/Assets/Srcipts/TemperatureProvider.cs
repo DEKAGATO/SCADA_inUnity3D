@@ -10,7 +10,7 @@ namespace Assets.Srcipts
     class TemperatureProvider
     {
         private BehaviorSubject<double> temperature;
-        public UniRx.IObservable<double> Temperature => temperature;
+        public IObservable<double> Temperature => temperature;
 
         public TemperatureProvider()
         {
