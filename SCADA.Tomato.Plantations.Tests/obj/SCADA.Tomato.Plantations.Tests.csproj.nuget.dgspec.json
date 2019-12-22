@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantation.Tests\\SCADA.Tomato.Plantation.Tests.csproj": {}
+    "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantations.Tests\\SCADA.Tomato.Plantations.Tests.csproj": {}
   },
   "projects": {
-    "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantation.Tests\\SCADA.Tomato.Plantation.Tests.csproj": {
+    "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantations.Tests\\SCADA.Tomato.Plantations.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantation.Tests\\SCADA.Tomato.Plantation.Tests.csproj",
-        "projectName": "SCADA.Tomato.Plantation.Tests",
-        "projectPath": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantation.Tests\\SCADA.Tomato.Plantation.Tests.csproj",
+        "projectUniqueName": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantations.Tests\\SCADA.Tomato.Plantations.Tests.csproj",
+        "projectName": "SCADA.Tomato.Plantations.Tests",
+        "projectPath": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantations.Tests\\SCADA.Tomato.Plantations.Tests.csproj",
         "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantation.Tests\\obj\\",
+        "outputPath": "D:\\repos\\SCADA-Unity3D\\SCADA.Tomato.Plantations.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,14 +36,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            },
             "System.Reactive": {
               "target": "Package",
               "version": "[4.3.1, )"
@@ -59,6 +53,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
