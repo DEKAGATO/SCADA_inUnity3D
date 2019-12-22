@@ -2989,6 +2989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 266872969}
   - component: {fileID: 266872970}
+  - component: {fileID: 266872971}
   m_Layer: 0
   m_Name: Plantation C
   m_TagString: Untagged
@@ -3038,6 +3039,21 @@ MonoBehaviour:
   initValue: 23
   Value: {fileID: 681270895}
   slider: {fileID: 362190243}
+--- !u!114 &266872971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266872968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a865374cea4c17a4e9d11a33a537ab04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initValue: 38.74
+  Value: {fileID: 1363175488}
+  slider: {fileID: 962036925}
 --- !u!1 &275635643
 GameObject:
   m_ObjectHideFlags: 0
@@ -9613,10 +9629,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 587782675}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -50
-  m_MaxValue: 50
+  m_MinValue: 0
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 11
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11705,10 +11721,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1421602437}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -50
-  m_MaxValue: 50
+  m_MinValue: 0
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 11
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14158,10 +14174,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 234740813}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -50
-  m_MaxValue: 50
+  m_MinValue: 0
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 11
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -16105,6 +16121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301136303}
   - component: {fileID: 1301136304}
+  - component: {fileID: 1301136305}
   m_Layer: 0
   m_Name: Plantation A
   m_TagString: Untagged
@@ -16154,6 +16171,21 @@ MonoBehaviour:
   initValue: 25
   Value: {fileID: 1143446928}
   slider: {fileID: 1590976024}
+--- !u!114 &1301136305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301136302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a865374cea4c17a4e9d11a33a537ab04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initValue: 33.25
+  Value: {fileID: 619771920}
+  slider: {fileID: 794749729}
 --- !u!1001 &1320926259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23517,6 +23549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012486164}
   - component: {fileID: 2012486165}
+  - component: {fileID: 2012486166}
   m_Layer: 0
   m_Name: Plantation B
   m_TagString: Untagged
@@ -23566,6 +23599,21 @@ MonoBehaviour:
   initValue: 24.5
   Value: {fileID: 214334326}
   slider: {fileID: 1227546769}
+--- !u!114 &2012486166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012486163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a865374cea4c17a4e9d11a33a537ab04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initValue: 29.56
+  Value: {fileID: 1555124053}
+  slider: {fileID: 1118232552}
 --- !u!1001 &2019771540
 PrefabInstance:
   m_ObjectHideFlags: 0
