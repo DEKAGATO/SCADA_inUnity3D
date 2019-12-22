@@ -7,22 +7,21 @@ using UniRx;
 
 namespace Assets.Srcipts
 {
-    class TemperatureProvider
+    public sealed class TemperatureProvider
     {
         private BehaviorSubject<double> temperature;
-        public IObservable<double> Temperature => temperature;
+        public double Temperature => temperature.Value;
 
-        public TemperatureProvider()
+        public TemperatureProvider(double initValue)
         {
-            temperature = new BehaviorSubject<double>(0.00);
+            temperature = new BehaviorSubject<double>(initValue);
             Random random = new Random();
 
             Observable
                 .Interval(TimeSpan.FromSeconds(1))
                 .Subscribe(lowNum =>
                 {
-
-                    temperature.OnNext(temperature.Value + random.NextDouble() * random.Next(-1, 2));
+                    temperature.OnNext(temperature.Value + random.Next(-1, 2) * random.NextDouble() * 0.1);
                 });
         }
     }
