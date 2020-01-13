@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Assers.Scripts.HumaditySetter
     - Assers.Scripts.TemperatureSetter
+    - CameraController
     - CloseButton
     - CurrentDateTime
     - DataSetter
@@ -60,21 +61,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10646}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 10830}
     - Class: 114
-      Script: {instanceID: 11056}
-    - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11060}
     - Class: 114
       Script: {instanceID: 11378}
     - Class: 114
-      Script: {instanceID: 11560}
+      Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11806}
     - Class: 114
       Script: {instanceID: 11846}
+    - Class: 114
+      Script: {instanceID: 11850}
+    - Class: 114
+      Script: {instanceID: 7353650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -614,7 +617,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: a6c67f8ca97082fb497f64c75fc677f1
+      Hash: da9d78b4a2494a71313233f3d76117a1
     assemblyName: Assembly-CSharp.dll
     namespaceName: Assers.Scripts
     className: HumaditySetter
@@ -816,6 +819,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 85672a5a4fd35da8c263a10a94641359
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene.unity
