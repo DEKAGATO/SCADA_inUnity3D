@@ -11,3 +11,4 @@ D:\repos\SCADA-Unity3D\SCADA.Tomato.Plantations.Tests\bin\Debug\netcoreapp3.1\Sy
 D:\repos\SCADA-Unity3D\SCADA.Tomato.Plantations.Tests\obj\Debug\netcoreapp3.1\SCADA.Tomato.Plantations.Tests.csproj.CopyComplete
 D:\repos\SCADA-Unity3D\SCADA.Tomato.Plantations.Tests\obj\Debug\netcoreapp3.1\SCADA.Tomato.Plantations.Tests.dll
 D:\repos\SCADA-Unity3D\SCADA.Tomato.Plantations.Tests\obj\Debug\netcoreapp3.1\SCADA.Tomato.Plantations.Tests.pdb
+D:\repos\SCADA-Unity3D\SCADA.Tomato.Plantations.Tests\obj\Debug\netcoreapp3.1\SCADA.Tomato.Plantations.Tests.csprojAssemblyReference.cache
